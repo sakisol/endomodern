@@ -1,0 +1,109 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666666;
+}
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4,
+.pimg5,
+.pimg6 {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.pimg1 {
+  background-image: url("../img/wallframes.jpg");
+  min-height: 100%;
+}
+
+.pimg2 {
+  background-image: url("../img/emptyroom.jpg");
+  min-height: 400px;
+}
+
+.pimg3 {
+  background-image: url("../img/paint.jpg");
+  min-height: 400px;
+}
+
+.pimg4 {
+  background-image: url("../img/relax.jpg");
+  height: 100%;
+}
+
+.pimg5 {
+  background-image: url("../img/goldcouch.jpg");
+  min-height: 600px;
+}
+.pimg6 {
+  background-image: url("../img/womanlaptop.jpg");
+  min-height: 600px;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+.section-light {
+  background-color: #f4f4f4;
+  color: #666666;
+}
+
+.section-dark {
+  background-color: #282e34;
+  color: #dddddd;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.ptext .border {
+  background-color: #dddddd;
+  color: #000;
+  padding: 20px;
+}
+
+.makes {
+  height: 100%;
+  border: solid black;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.makes .border {
+  background-color: #dddddd;
+  color: #000;
+  padding: 0px;
+}
+
+@media (max-width: 568px) {
+  .pimg1,
+  .pimg2,
+  .pimg3,
+  .pimg4,
+  .pimg5,
+  .pimg6 {
+    background-attachment: scroll;
+  }
+}

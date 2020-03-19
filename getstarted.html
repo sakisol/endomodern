@@ -1,0 +1,194 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Open+Sans+Condensed:300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/para.css" />
+    <title>get started</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="container-fluid">
+        <div v-if="view == 'home'">
+          <div class="pimg2">
+            <div class="ptext">
+              <span class="border">
+                Let's Get Started
+              </span>
+            </div>
+          </div>
+
+          <section class="section section-light">
+            <h2>
+              1. PICK YOUR DESIGN SERVICE 2. PURCHASE 3. SIT BACK AND RELAX
+            </h2>
+          </section>
+
+          <div class="row">
+            <div class="pimg5 col-6">
+              <div class="ptext">
+                <span class="border">
+                  <a
+                    class=" "
+                    @click="view ='getstarted'"
+                    tabindex="-1"
+                    aria-disabled="true"
+                    >Consultation</a
+                  >
+                </span>
+              </div>
+            </div>
+            <div class="pimg6 col-6">
+              <div class="ptext">
+                <span class="border">
+                  <a
+                    class=" "
+                    @click="view ='getstarted'"
+                    tabindex="-1"
+                    aria-disabled="true"
+                    >Rent-a-Designer</a
+                  >
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="pimg3 col-7">
+              <div class="ptext">
+                <span class="border">
+                  <a
+                    class=" "
+                    @click="view ='getstarted'"
+                    tabindex="-1"
+                    aria-disabled="true"
+                    >Paint Color Consultation</a
+                  >
+                </span>
+              </div>
+            </div>
+            <div class="d-flex flex-column col-5">
+              <div class="makes">
+                <span class="border">
+                  <a
+                    class=" "
+                    @click="view ='getstarted'"
+                    tabindex="-1"
+                    aria-disabled="true"
+                    >MakeOver</a
+                  >
+                </span>
+              </div>
+              <div class="makes under">
+                <span class="border">
+                  <a
+                    class=" "
+                    @click="view ='getstarted'"
+                    tabindex="-1"
+                    aria-disabled="true"
+                    >MakeUNDER</a
+                  >
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="pimg2">
+            <div class="ptext">
+              <span class="border">
+                last part
+              </span>
+            </div>
+          </div>
+
+          <section class="section section-dark">
+            <h2>
+              1. PICK YOUR DESIGN SERVICE 2. PURCHASE 3. SIT BACK AND RELAX
+            </h2>
+            <p>
+              section three
+            </p>
+          </section>
+
+          <div class="pimg4">
+            <div class="ptext">
+              <span class="border">
+                Let's Get Started
+              </span>
+            </div>
+          </div>
+        </div>
+        <!-- end of landing/home page -->
+
+        <div v-if="view == 'getstarted'">
+          <div class="pimg2">
+            <div class="ptext">
+              <span class="border">
+                Let's get started
+              </span>
+            </div>
+          </div>
+
+          <section class="section section-dark">
+            <h1>Interior Design Services Made Simple</h1>
+            <p>
+              Paint Color Consultation
+            </p>
+            <a
+              class=" "
+              @click="view ='home'"
+              tabindex="-1"
+              aria-disabled="true"
+              >HOME</a
+            >
+          </section>
+        </div>
+      </div>
+      <!-- end of div container-fluid -->
+    </div>
+    <!-- end of div id app -->
+
+    <!-- scripts -->
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <!-- BOOTSTRAP -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- VUE.js -->
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
+    <!-- JS -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
