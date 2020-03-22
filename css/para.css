@@ -49,6 +49,9 @@ html {
   background-image: url("../img/womanlaptop.jpg");
   min-height: 600px;
 }
+.hometext {
+  text-align: center;
+}
 
 .section {
   text-align: center;
