@@ -21,98 +21,86 @@
     <div id="app">
       <div class="container-fluid">
         <div v-if="view == 'home'">
-          <div class="pimg2">
-            <div class="ptext">
-              <span class="border">
-                Let's Get Started
-              </span>
-            </div>
-          </div>
-
-          <section class="section section-light">
-            <h2>
-              1. PICK YOUR DESIGN SERVICE 2. PURCHASE 3. SIT BACK AND RELAX
-            </h2>
-          </section>
-
           <div class="row">
-            <div class="pimg5 col-6">
-              <div class="ptext">
-                <span class="border">
-                  <a
-                    class=" "
-                    @click="view ='getstarted'"
-                    tabindex="-1"
-                    aria-disabled="true"
-                    >Consultation</a
-                  >
-                </span>
-              </div>
-            </div>
-            <div class="pimg6 col-6">
-              <div class="ptext">
-                <span class="border">
-                  <a
-                    class=" "
-                    @click="view ='getstarted'"
-                    tabindex="-1"
-                    aria-disabled="true"
-                    >Rent-a-Designer</a
-                  >
-                </span>
-              </div>
+            <div class="heading">
+              <h1>endomodern</h1>
+              <h4>Interior Design for everyone</h4>
+              <a
+                class=" "
+                @click="view ='home'"
+                tabindex="-1"
+                aria-disabled="true"
+                >back to HOME</a
+              >
             </div>
           </div>
-
+          <!-- end of row heading -->
           <div class="row">
-            <div class="pimg3 col-7">
-              <div class="ptext">
-                <span class="border">
-                  <a
-                    class=" "
-                    @click="view ='getstarted'"
-                    tabindex="-1"
-                    aria-disabled="true"
-                    >Paint Color Consultation</a
-                  >
-                </span>
-              </div>
-            </div>
-            <div class="d-flex flex-column col-5">
-              <div class="makes">
-                <span class="border">
-                  <a
-                    class=" "
-                    @click="view ='getstarted'"
-                    tabindex="-1"
-                    aria-disabled="true"
-                    >MakeOver</a
-                  >
-                </span>
-              </div>
-              <div class="makes under">
-                <span class="border">
-                  <a
-                    class=" "
-                    @click="view ='getstarted'"
-                    tabindex="-1"
-                    aria-disabled="true"
-                    >MakeUNDER</a
-                  >
-                </span>
-              </div>
+            <div class="service">
+              <h4>Pick a Service</h4>
             </div>
           </div>
-
-          <div class="pimg2">
-            <div class="ptext">
-              <span class="border">
-                ***
-              </span>
+          <!-- end of row PickService -->
+          <div class="row">
+            <!-- <div class="col-12"> -->
+            <div class="col-4">
+              <img src="img/womanlaptop.jpg" class="svcimg" />
+              <h5>Consultation</h5>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
+                atque voluptate a beatae tenetur vero, laborum voluptatibus
+                pariatur cum velit, doloremque obcaecati similique quisquam quod
+                labore doloribus nesciunt, cumque maiores!
+              </p>
+            </div>
+            <div class="col-4">
+              <img src="img/Nyota.jpg" class="svcimg" />
+              <h5>Rent-a-Designer</h5>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
+                atque voluptate a beatae tenetur vero, laborum voluptatibus
+                pariatur cum velit, doloremque obcaecati similique quisquam quod
+                labore doloribus nesciunt, cumque maiores!
+              </p>
+            </div>
+            <div class="col-4">
+              <img src="img/paint.jpg" class="svcimg" />
+              <h5>Paint Color Consultation</h5>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
+                atque voluptate a beatae tenetur vero, laborum voluptatibus
+                pariatur cum velit, doloremque obcaecati similique quisquam quod
+                labore doloribus nesciunt, cumque maiores!
+              </p>
+            </div>
+            <!-- </div> -->
+            <!-- end of col-12  -->
+          </div>
+          <!-- end of row services -->
+          <div class="row">
+            <div class="col-6">
+              <img src="img/goldcouch.jpg" class="svcimg" />
+              <h5>MakeOver</h5>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
+                atque voluptate a beatae tenetur vero, laborum voluptatibus
+                pariatur cum velit, doloremque obcaecati similique quisquam quod
+                labore doloribus nesciunt, cumque maiores!
+              </p>
+            </div>
+            <div class="col-6">
+              <img src="img/emptyroom.jpg" class="svcimg" />
+              <h5>MakeUnder</h5>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
+                atque voluptate a beatae tenetur vero, laborum voluptatibus
+                pariatur cum velit, doloremque obcaecati similique quisquam quod
+                labore doloribus nesciunt, cumque maiores!
+              </p>
             </div>
           </div>
         </div>
-        <!-- end of page -->
+        <!-- end of  home view -->
       </div>
       <!-- end of div container-fluid -->
     </div>

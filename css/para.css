@@ -53,6 +53,22 @@ html {
   text-align: center;
 }
 
+.heading {
+  width: 100%;
+  text-align: center;
+}
+
+.svcimg {
+  width: auto;
+  height: 300px;
+  display: block;
+  margin: auto;
+}
+
+h5 {
+  text-align: center;
+}
+
 .section {
   text-align: center;
   padding: 50px 80px;
