@@ -69,6 +69,13 @@ h5 {
   text-align: center;
 }
 
+.service {
+  padding: 50px;
+}
+.services p {
+  text-align: center;
+}
+
 .section {
   text-align: center;
   padding: 50px 80px;
