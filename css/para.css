@@ -3,10 +3,15 @@ html {
   height: 100%;
   margin: 0;
   font-size: 16px;
-  font-family: "Lato", sans-serif;
+  font-family: "Cormorant Garamond", serif;
   font-weight: 400;
   line-height: 1.8em;
   /* color: #666666; */
+}
+
+.button:hover {
+  transform: scale(1.1);
+  color: rgb(16, 117, 164);
 }
 .pimg1,
 .pimg2,
@@ -23,7 +28,7 @@ html {
 }
 .pimg1 {
   background-image: url("../img/wallframes.jpg");
-  min-height: 100%;
+  min-height: 400px;
 }
 
 .pimg2 {
@@ -74,7 +79,7 @@ h5 {
 }
 
 .service {
-  padding: 77px;
+  padding: 30px;
   background-color: rgb(7, 7, 7);
 }
 
