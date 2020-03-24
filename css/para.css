@@ -6,7 +6,7 @@ html {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 1.8em;
-  color: #666666;
+  /* color: #666666; */
 }
 .pimg1,
 .pimg2,
@@ -69,13 +69,37 @@ h5 {
   text-align: center;
 }
 
-.service {
-  padding: 50px;
+.pick {
+  color: #dddddd;
 }
+
+.service {
+  padding: 77px;
+  background-color: rgb(7, 7, 7);
+}
+
 .services p {
   text-align: center;
 }
 
+.one {
+  background-color: rgb(152, 205, 230);
+}
+
+.two {
+  background-color: rgb(151, 216, 216);
+}
+
+.three {
+  background-color: rgb(187, 218, 218);
+}
+
+.four {
+  background-color: rgb(218, 213, 244);
+}
+.five {
+  background-color: rgb(185, 167, 206);
+}
 .section {
   text-align: center;
   padding: 50px 80px;
