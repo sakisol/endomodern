@@ -18,7 +18,9 @@ html {
 .pimg3,
 .pimg4,
 .pimg5,
-.pimg6 {
+.pimg6,
+.pimg7,
+.pimg8 {
   position: relative;
   opacity: 0.7;
   background-position: center;
@@ -54,7 +56,25 @@ html {
   background-image: url("../img/womanlaptop.jpg");
   min-height: 600px;
 }
+
+.pimg7 {
+  background-image: url("../img/shopcarts.jpg");
+  min-height: 600px;
+}
+.pimg8 {
+  background-image: url("../img/shopcartwmn.jpg");
+  min-height: 1000px;
+}
 .hometext {
+  text-align: center;
+}
+.cartext {
+  background-color: #f4f4f4;
+  position: absolute;
+  left: 500px;
+  top: 20%;
+  width: 40%;
+  height: 200px;
   text-align: center;
 }
 
@@ -87,37 +107,37 @@ h5 {
   text-align: center;
 }
 
-.one {
+/* .one {
   background-color: rgb(152, 205, 230);
-}
+} */
 
 .one:hover {
   background-color: rgb(121, 161, 179);
 }
 
-.two {
+/* .two {
   background-color: rgb(151, 216, 216);
-}
+} */
 .two:hover {
+  background-color: rgb(161, 145, 179);
+}
+/* .three {
+  background-color: rgb(187, 218, 218);
+} */
+.three:hover {
   background-color: rgb(93, 162, 162);
 }
-.three {
-  background-color: rgb(187, 218, 218);
-}
-.three:hover {
-  background-color: rgb(149, 176, 176);
-}
-.four {
+/* .four {
   background-color: rgb(218, 213, 244);
-}
+} */
 .four:hover {
   background-color: rgb(174, 170, 193);
 }
-.five {
+/* .five {
   background-color: rgb(185, 167, 206);
-}
+} */
 .five:hover {
-  background-color: rgb(161, 145, 179);
+  background-color: rgb(149, 176, 176);
 }
 .section {
   text-align: center;
